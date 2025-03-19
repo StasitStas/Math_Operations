@@ -11,7 +11,7 @@ int subtract(int x, int y) {
 int main() {
     printf("Welcome! This program performs basic arithmetic operations.\n");
 
-    int a = 5, b = 10;
+    int a = 5, b = 100; // change-b-value
     printf("Sum: %d\n", add(a, b));
     printf("Difference: %d\n", subtract(a, b));
 
